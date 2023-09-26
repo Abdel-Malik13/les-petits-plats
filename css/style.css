@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('../assets/polices/Anton-Regular.ttf');
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton';
+    /* font-size: 62.5%; */
+    height: 100vh;
+}
+
+
+
+.main-header {
+    display: flex;
+    width: 1440px;
+    height: 667px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    background-image: url('../assets/images/img.png');
+}
+
+.logo {
+    width: 207px;
+    height: 25.26px;
+    position: absolute;
+    top: 51px;
+    left: 69px;
+}
+
+.title {
+    font-family: 'Anton';
+    font-size: 3.4em;
+    font-weight: 400;
+    line-height: 66.24px;
+    text-align: center;
+    /* width: 890px; */
+    color: #FFD15B;
+}
+
+.search-recipes {
+    width: 954px;
+    height: 72px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.6em;
+    color: #7A7A7A;
+    padding-left: 35px;
+}
+
+
+
+.recipes-section {
+    /* display: flex; */
+    width: 1440px;
+    height: auto;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: auto;
+    background-color: #EDEDED;
+}
+
+.recipes-filter {
+    width: 1200px;
+    /* height: 56px; */
+    margin-top: 21px;
+    /* background-color: #fff; */
+}
+
+.recipes-filter select {
+    width: 195px;
+    height: 56px;
+}
+
+.recipes-cards {
+    /* width: 1200px; */
+    height: auto;
+    margin-top: 55px;
+    /* background-color: #696969; */
+}
+
+.cards {
+    width: 380px;
+    height: 731px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.cards-img {
+    width: 380px;
+    height: 253px;
+}
+
+.cards-img {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.card-info {
+    width: 380px;
+    height: 480px;
+    padding: 32px 25px 32px 25px;
+    background-color: #705f5f;
+}
+
+.card-body h2 {
+    font-family: 'Anton';
+    font-size: 1.4em;
+    color: #000;
+}
+
+.card-body h3 {
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #7A7A7A;
+}
+
+.card-body p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #1B1B1B;
+}
+
+.card-info ul {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.4em;
+}
+
+/* .card-info ul li {
+    list-style: none;
+} */
+
+/* .card-info ul span {
+    display: block;
+} */
